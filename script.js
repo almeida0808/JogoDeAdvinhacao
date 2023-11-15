@@ -2,7 +2,6 @@ const randomNum = Math.round(Math.random() * 10)
 let numTentativas = 1
 const main = document.querySelector('main')
 
-const video = document.querySelector("main video")
 
 function clicar(event){
 event.preventDefault()
@@ -45,8 +44,8 @@ const btnReset = document.querySelector("#button2")
 
 btnReset.addEventListener('click' , voltar)
 
-function voltar(event){
-    document.querySelector(".tela2").classList.add("hide")
-    document.querySelector(".tela1").classList.remove("hide")
+function voltar(){
+    document.querySelector(".tela2").classList.toggle("hide")
+  
     
 }
