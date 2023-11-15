@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Advinhação</title>
+</head>
+<body>
+    <video autoplay loop plays-inline id="myVideo"> <source src="images/production_id_4828773 (1080p).mp4" type="video/mp4"></video>
+    <main>
+        <div class="tela1">
+            <div class="text">
+                <h1>Jogo da Advinhação</h1>
+                <p>Advinhe o número de 0 a 10</p>
+
+            </div>
+            
+            <form class="testar">
+<input id="numInput" type="number" required>
+                <button id="button1" >Tentar</button>
+            </form>
+
+            <h3></h3>
+        </div>
+
+        <div class="tela2 hide">
+<h2>Acertou em tentativas</h2>
+
+<div class="botao">
+    <form>
+    <button id="button2">jogar novamente</button>
+</form>
+</div>
+        </div>
+        </main>
+
+    <script src="script.js"></script>
+    <canvas id="my-canvas"></canvas>
+    <script src="index-min.js"></script>
+</body>
+</html>

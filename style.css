@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+background: url(images/pexels-kammeran-gonzalezkeola-17838328\ \(2160p\).mp4);
+}
+
+body video{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+@media(min-aspect-ratio: 16/9){
+    body video{
+        width: 100%;
+        height: auto;
+    }
+}
+main{
+  width:min(42.8rem, 90%) ;
+  padding: 48px 64px 64px 64px;
+  border-radius: 6px;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+
+background: rgb(255, 0, 0);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+background-color: transparent;
+
+border: 3px solid rgba(0, 92, 12, 0.37);
+
+}
+
+.hide{
+    display: none;
+}
+
+/*Tela 1*/
+
+.text{
+ color: #005e0d;
+}
+.text h1{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+font-size: 24px;
+font-weight: 600;
+
+padding-bottom: 1.6rem;
+
+}
+
+.text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+
+    padding-bottom: 4.8rem;
+}
+
+.testar{
+    font-family: 'DM Sans', sans-serif;
+
+    
+    display: flex;
+justify-content: center;
+}
+.testar input{
+    padding: 1.6rem;
+    border-radius: 4px 0px 0px 4px;
+background: #d4d4d4;
+border: none;
+
+width: 6.5rem;
+
+color: #242424;
+font-size: 16px;
+font-weight: 400;
+}
+
+.testar button{
+    border: none;
+    background:  #005e0d;
+    animation: mymove 10s infinite;;
+    width: 8.2rem;
+    border-radius: 0px 4px 4px 0px;
+
+    color: white;
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+
+transition: 0.2s;
+}
+
+.testar button:hover{
+ 
+    background-color:    #05a820;}
+
+.tela1 h3{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2rem;
+    opacity: 0.7;
+
+    color: red;
+}
+/*Tela 2*/
+
+.tela2 h2{
+    text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 150%;
+
+padding-bottom: 3.3rem;
+
+color: #00ff2a;
+}
+
+
+.tela2 button{
+    border: none;
+background:  #00ff2a;
+    animation: mymove 10s infinite;
+    border-radius: 4px;
+padding: 1.6rem;
+    color: white;
+    font-size: 16px;
+font-weight: 600;
+width: max-content;
+
+}
+
+.tela2 button:hover{
+background-color: #005e0d;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+#my-canvas{
+    position: fixed;
+top: 0;
+width: 100%;
+height: 100vh;
+left: 0;
+z-index: 10000;
+pointer-events: none;
+}
+
+
