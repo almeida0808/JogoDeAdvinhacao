@@ -55,7 +55,7 @@ border: 3px solid rgba(0, 92, 12, 0.37);
 /*Tela 1*/
 
 .text{
- color: #005e0d;
+    color: #005e0d;
 }
 .text h1{
 font-family: 'Montserrat', sans-serif;
@@ -65,6 +65,7 @@ font-size: 24px;
 font-weight: 600;
 
 padding-bottom: 1.6rem;
+color: #ffffff;
 
 }
 
