@@ -34,7 +34,7 @@ body video{
     }
 }
 main{
-  width:min(60rem, 90%) ;
+  width:min(42.8rem, 90%) ;
   padding: 48px 64px 64px 64px;
   border-radius: 6px;
 box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
